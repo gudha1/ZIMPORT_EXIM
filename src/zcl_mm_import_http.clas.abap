@@ -124,7 +124,10 @@ wa_head-paymentterms           = it_data-idpaymentterms.
 wa_head-incotermsloc           = it_data-location.
 wa_head-countrynameoforigin    = it_data-countrynameoforigin.
 wa_head-arrivedquantity        = <wat>-arrivedquantity.
-
+ wa_head-bondamount                =     <wat>-bondamount          .
+ wa_head-bondnumber               =      <wat>-bondnumber          .
+ wa_head-idpaymenttermsname       =      it_data-idpaymenttermsname  .
+ wa_head-licserialno              =      <wat>-licserialno         .
 
 
 APPEND wa_head to it_data2 .
@@ -233,7 +236,10 @@ wa_head-paymentterms           = it_data-idpaymentterms.
 wa_head-incotermsloc           = it_data-location.
 wa_head-countrynameoforigin    = it_data-countrynameoforigin.
 wa_head-arrivedquantity        = <wat>-arrivedquantity.
-
+ wa_head-bondamount                =     <wat>-bondamount          .
+ wa_head-bondnumber               =      <wat>-bondnumber          .
+ wa_head-idpaymenttermsname       =      it_data-idpaymenttermsname  .
+ wa_head-licserialno              =      <wat>-licserialno         .
 
 
 APPEND wa_head to it_data2 .

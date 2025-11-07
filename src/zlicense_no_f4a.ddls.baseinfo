@@ -3,8 +3,7 @@
 {
 "FROM":
 [
-"I_SUPPLIER",
-"ZEXIM_SAVE_TAB"
+"ZIM_MAINTAIN_LIC"
 ],
 "ASSOCIATED":
 [],

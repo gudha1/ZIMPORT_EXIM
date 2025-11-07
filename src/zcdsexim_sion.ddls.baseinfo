@@ -3,8 +3,7 @@
 {
 "FROM":
 [
-"I_SUPPLIER",
-"ZEXIM_SAVE_TAB"
+"ZEXIM_SION"
 ],
 "ASSOCIATED":
 [],

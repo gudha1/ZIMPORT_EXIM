@@ -7,9 +7,11 @@
 define view ZPAYMENT_TERMS_F4 as select from I_PaymentTermsText
 {
     key PaymentTerms,
-        case when PaymentTermsName is initial then PaymentTermsDescription else PaymentTermsName end as PaymentTermsName
+    PaymentTermsDescription as PaymentTermsName
+//        case when PaymentTermsName is initial then PaymentTermsDescription else PaymentTermsName end as PaymentTermsName
 }
-where Language = 'E'
+where Language = 'E' 
+and PaymentTermsDescription is not initial 
 group by 
 PaymentTerms,
 PaymentTermsDescription,
